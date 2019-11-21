@@ -1,0 +1,12 @@
+
+https://forums.linuxmint.com/viewtopic.php?t=265370
+
+
+[root@maurisae-linux ~]# cat /usr/share/X11/xorg.conf.d/50-jabra.conf
+Section "InputClass"
+Identifier "Jabra EVOLVE LINK"
+MatchProduct "Jabra EVOLVE LINK"
+Option "ButtonMapping" "0 0 0 0 0 0 0 0 0 0 0 0 0"
+EndSection
+[root@maurisae-linux ~]#
+
